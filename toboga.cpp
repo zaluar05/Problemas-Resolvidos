@@ -8,7 +8,6 @@ float dist_ponto_seg(int px, int py, int x1, int y1, int x2, int y2) {
     float dx = x2 - x1;
     float dy = y2 - y1;
     if (dx == 0 && dy == 0) {
-        // O segmento é um ponto
         return sqrt(pow(px - x1, 2) + pow(py - y1, 2));
     }
     float t = ((px - x1) * dx + (py - y1) * dy) / (dx * dx + dy * dy);
