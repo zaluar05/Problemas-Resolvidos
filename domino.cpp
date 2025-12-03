@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(NULL);
+  int m, n;
+  cin >> m >> n;
+  int dim = m * n;
+  cout << dim / 2 << '\n';
+  return 0;
+}
